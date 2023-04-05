@@ -1,0 +1,61 @@
+.app {
+  margin-top: 3rem;
+  width: 100%;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem 1rem 4rem 1rem;
+
+  &--input {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 2fr 1fr 1fr;
+    // max-width: 100%;
+    form {
+      grid-column: 1;
+      grid-row: 1;
+      display: flex;
+      .input-field {
+        margin-right: 16px;
+      }
+      label {
+        max-width: 30%;
+        display: block;
+        font-size: 0.8125rem;
+        // vertical-align: top;
+      }
+      input[type="text"] {
+        border-radius: 6px;
+        border: 1px solid gray;
+        outline: none;
+        text-align: center;
+        padding: 10px;
+      }
+    }
+    .button-placeholder {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &::before {
+        position: absolute;
+        content: "";
+        top: 50%;
+        left: 0;
+        height: 1px;
+        width: 100%;
+        background-color: gray;
+      }
+    }
+    button[type="submit"] {
+      max-width: 30%;
+      border: 0;
+      outline: 0;
+      border-radius: 50%;
+      background-color: $c-purple;
+      padding: 1px;
+      z-index: 99;
+    }
+  }
+  &--result-display {
+  }
+}

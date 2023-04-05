@@ -149,7 +149,7 @@ select {
 body {
   font-family: $f-poppins;
   font-size: 2rem;
-  background-color: $c-light-grey;
+  background-color: $c-off-white;
 }
 
 a {
@@ -159,22 +159,9 @@ a {
 
 .container {
   max-width: 375px;
-
-  padding: 0;
   @include md {
     max-width: 768px;
   }
-}
-
-main {
-  display: flex;
-  justify-content: center;
-  align-items: start;
-  flex-direction: column;
-  background-color: $c-off-white;
-  color: $c-off-black;
-  margin-top: 5rem;
-  font-size: 2rem;
 }
 
 footer {

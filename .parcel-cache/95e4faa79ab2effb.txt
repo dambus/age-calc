@@ -1,12 +1,13 @@
-4374
+4375
 53/home/milan/github/Frontend Mentor/age-calc/README.md1680193979000000000 0
 69/home/milan/github/Frontend Mentor/age-calc/src/img/favicon-32x32.png1680193979000000000 0
 51/home/milan/github/Frontend Mentor/age-calc/src/img1680674030266348571 1
 50/home/milan/github/Frontend Mentor/age-calc/src/js1680675817705927320 1
-70/home/milan/github/Frontend Mentor/age-calc/dist/index.aa69868b.js.map1680675851985306937 0
-73/home/milan/github/Frontend Mentor/age-calc/dist/age-calc.3464ddca.js.map1680675851941307730 0
-75/home/milan/github/Frontend Mentor/age-calc/dist/favicon-32x32.b71481b0.png1680675851981307009 0
-48/home/milan/github/Frontend Mentor/age-calc/dist1680675851989306865 1
+70/home/milan/github/Frontend Mentor/age-calc/dist/index.aa69868b.js.map1680683500170602098 0
+73/home/milan/github/Frontend Mentor/age-calc/dist/age-calc.3464ddca.js.map1680683267220439374 0
+72/home/milan/github/Frontend Mentor/age-calc/dist/icon-arrow.5ba41cb5.svg1680683500162602296 0
+75/home/milan/github/Frontend Mentor/age-calc/dist/favicon-32x32.b71481b0.png1680683500170602098 0
+48/home/milan/github/Frontend Mentor/age-calc/dist1680686175780741800 1
 76/home/milan/github/Frontend Mentor/age-calc/node_modules/terser/package.json1680674874551494192 0
 71/home/milan/github/Frontend Mentor/age-calc/node_modules/terser/LICENSE1680674874083508890 0
 80/home/milan/github/Frontend Mentor/age-calc/node_modules/terser/tools/props.html1680674874211504870 0
@@ -275,7 +276,7 @@
 71/home/milan/github/Frontend Mentor/age-calc/node_modules/posthtml/types1680674874167506251 1
 76/home/milan/github/Frontend Mentor/age-calc/node_modules/posthtml/lib/api.js1680674874083508890 0
 73/home/milan/github/Frontend Mentor/age-calc/node_modules/posthtml/license1680674874059509643 0
-69/home/milan/github/Frontend Mentor/age-calc/dist/age-calc.3464ddca.js1680675851937307802 0
+69/home/milan/github/Frontend Mentor/age-calc/dist/age-calc.3464ddca.js1680683267216439476 0
 107/home/milan/github/Frontend Mentor/age-calc/node_modules/posthtml/node_modules/posthtml-parser/package.json1680674874151506754 0
 110/home/milan/github/Frontend Mentor/age-calc/node_modules/posthtml/node_modules/posthtml-parser/dist/index.d.ts1680674874207504994 0
 74/home/milan/github/Frontend Mentor/age-calc/node_modules/readdirp/index.js1680675728431570810 0
@@ -523,7 +524,7 @@
 90/home/milan/github/Frontend Mentor/age-calc/node_modules/dom-serializer/lib/esm/index.d.ts1680674874327501227 0
 88/home/milan/github/Frontend Mentor/age-calc/node_modules/caniuse-lite/data/regions/ST.js1680674874711489167 0
 88/home/milan/github/Frontend Mentor/age-calc/node_modules/caniuse-lite/data/regions/TC.js1680674874715489041 0
-67/home/milan/github/Frontend Mentor/age-calc/dist/index.f7626f62.css1680675851937307802 0
+67/home/milan/github/Frontend Mentor/age-calc/dist/index.f7626f62.css1680686175780741800 0
 88/home/milan/github/Frontend Mentor/age-calc/node_modules/caniuse-lite/data/regions/EE.js1680674874647491177 0
 88/home/milan/github/Frontend Mentor/age-calc/node_modules/caniuse-lite/data/regions/PK.js1680674874699489544 0
 88/home/milan/github/Frontend Mentor/age-calc/node_modules/caniuse-lite/data/regions/KN.js1680674874679490171 0
@@ -1087,7 +1088,7 @@
 88/home/milan/github/Frontend Mentor/age-calc/node_modules/caniuse-lite/data/regions/SR.js1680674874711489167 0
 104/home/milan/github/Frontend Mentor/age-calc/node_modules/caniuse-lite/data/features/css3-cursors-grab.js1680674874635491554 0
 92/home/milan/github/Frontend Mentor/age-calc/node_modules/caniuse-lite/data/features/proxy.js1680674874699489544 0
-71/home/milan/github/Frontend Mentor/age-calc/dist/index.f7626f62.css.map1680675851941307730 0
+71/home/milan/github/Frontend Mentor/age-calc/dist/index.f7626f62.css.map1680686175780741800 0
 128/home/milan/github/Frontend Mentor/age-calc/node_modules/@babel/helper-validator-identifier/scripts/generate-identifier-regex.js1680674874291502357 0
 117/home/milan/github/Frontend Mentor/age-calc/node_modules/caniuse-lite/data/features/keyboardevent-getmodifierstate.js1680674874679490171 0
 109/home/milan/github/Frontend Mentor/age-calc/node_modules/caniuse-lite/data/features/css-background-offsets.js1680674874559493940 0
@@ -1187,7 +1188,7 @@
 73/home/milan/github/Frontend Mentor/age-calc/node_modules/css-tree/LICENSE1680674874023510773 0
 90/home/milan/github/Frontend Mentor/age-calc/node_modules/css-tree/lib/syntax/config/mix.js1680674874563493814 0
 93/home/milan/github/Frontend Mentor/age-calc/node_modules/css-tree/lib/syntax/config/walker.js1680674874595492810 0
-66/home/milan/github/Frontend Mentor/age-calc/dist/index.aa69868b.js1680675851981307009 0
+66/home/milan/github/Frontend Mentor/age-calc/dist/index.aa69868b.js1680683500162602296 0
 83/home/milan/github/Frontend Mentor/age-calc/node_modules/css-tree/lib/syntax/config1680674874595492810 1
 101/home/milan/github/Frontend Mentor/age-calc/node_modules/caniuse-lite/data/features/css3-boxsizing.js1680674874631491679 0
 86/home/milan/github/Frontend Mentor/age-calc/node_modules/css-tree/lib/syntax/create.js1680674874423498212 0
@@ -1619,7 +1620,7 @@
 91/home/milan/github/Frontend Mentor/age-calc/node_modules/msgpackr/dist/index-no-eval.min.js1680674874323501352 0
 146/home/milan/github/Frontend Mentor/age-calc/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-browser-exclude/package.json1680674874607492433 0
 102/home/milan/github/Frontend Mentor/age-calc/node_modules/@parcel/reporter-cli/test/CLIReporter.test.js1680674874347500599 0
-61/home/milan/github/Frontend Mentor/age-calc/src/sass/app.scss1680675711391889506 0
+61/home/milan/github/Frontend Mentor/age-calc/src/sass/app.scss1680686175736742812 0
 74/home/milan/github/Frontend Mentor/age-calc/node_modules/@babel/code-frame1680674874151506754 1
 88/home/milan/github/Frontend Mentor/age-calc/node_modules/caniuse-lite/data/regions/RE.js1680674874703489418 0
 79/home/milan/github/Frontend Mentor/age-calc/node_modules/msgpackr/dist/index.js1680674874351500472 0
@@ -2370,7 +2371,7 @@
 79/home/milan/github/Frontend Mentor/age-calc/node_modules/@parcel/diagnostic/lib1680674874223504493 1
 84/home/milan/github/Frontend Mentor/age-calc/node_modules/source-map-js/source-map.js1680675728439570662 0
 88/home/milan/github/Frontend Mentor/age-calc/node_modules/@parcel/source-map/dist/wasm.js1680674874383499468 0
-62/home/milan/github/Frontend Mentor/age-calc/src/sass/main.scss1680675489464222589 0
+62/home/milan/github/Frontend Mentor/age-calc/src/sass/main.scss1680679604886593908 0
 77/home/milan/github/Frontend Mentor/age-calc/node_modules/csso/lib/restructure1680674874467496830 1
 146/home/milan/github/Frontend Mentor/age-calc/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/side-effects-false-glob/sub/index.js1680674874523495070 0
 65/home/milan/github/Frontend Mentor/age-calc/node_modules/anymatch1680675728435570736 1
@@ -2468,7 +2469,7 @@
 76/home/milan/github/Frontend Mentor/age-calc/node_modules/terser/lib/compress1680674874531494820 1
 135/home/milan/github/Frontend Mentor/age-calc/node_modules/@parcel/node-resolver-core/test/fixture/packages/source-alias-glob/src/test.js1680674874599492684 0
 107/home/milan/github/Frontend Mentor/age-calc/node_modules/@swc/helpers/src/_define_enumerable_properties.mjs1680674874515495322 0
-43/home/milan/github/Frontend Mentor/age-calc1680675851925308018 1
+43/home/milan/github/Frontend Mentor/age-calc1680675984670952940 1
 84/home/milan/github/Frontend Mentor/age-calc/node_modules/css-tree/lib/lexer/error.js1680674874487496202 0
 68/home/milan/github/Frontend Mentor/age-calc/node_modules/yaml/map.js1680674874335500975 0
 106/home/milan/github/Frontend Mentor/age-calc/node_modules/caniuse-lite/data/features/es6-string-includes.js1680674874647491177 0
@@ -2726,7 +2727,7 @@
 108/home/milan/github/Frontend Mentor/age-calc/node_modules/@parcel/runtime-js/src/helpers/browser/js-loader.js1680674874403498839 0
 78/home/milan/github/Frontend Mentor/age-calc/node_modules/color-convert/LICENSE1680674874151506754 0
 75/home/milan/github/Frontend Mentor/age-calc/node_modules/nullthrows/LICENSE1680674874063509517 0
-62/home/milan/github/Frontend Mentor/age-calc/src/sass/base.scss1680675788658457472 0
+62/home/milan/github/Frontend Mentor/age-calc/src/sass/base.scss1680680888775970645 0
 93/home/milan/github/Frontend Mentor/age-calc/node_modules/cosmiconfig/dist/cacheWrapper.js.map1680674874283502608 0
 92/home/milan/github/Frontend Mentor/age-calc/node_modules/postcss-value-parser/lib/index.d.ts1680674874255503488 0
 79/home/milan/github/Frontend Mentor/age-calc/node_modules/domutils/lib/legacy.js1680674874183505749 0
@@ -2832,7 +2833,7 @@
 67/home/milan/github/Frontend Mentor/age-calc/node_modules/is-extglob1680674874079509016 1
 88/home/milan/github/Frontend Mentor/age-calc/node_modules/@parcel/utils/src/bundle-url.js1680674874251503614 0
 116/home/milan/github/Frontend Mentor/age-calc/node_modules/lmdb/dependencies/lz4/lib/dll/example/fullbench-dll.vcxproj1680674874631491679 0
-54/home/milan/github/Frontend Mentor/age-calc/index.html1680675851201321065 0
+54/home/milan/github/Frontend Mentor/age-calc/index.html1680684896121532210 0
 71/home/milan/github/Frontend Mentor/age-calc/node_modules/tslib/tslib.js1680674874207504994 0
 98/home/milan/github/Frontend Mentor/age-calc/node_modules/cosmiconfig/dist/getPropertyByPath.js.map1680674874343500724 0
 75/home/milan/github/Frontend Mentor/age-calc/node_modules/is-number/index.js1680674874059509643 0
@@ -3661,7 +3662,7 @@
 85/home/milan/github/Frontend Mentor/age-calc/node_modules/@parcel/optimizer-terser/src1680674874103508262 1
 89/home/milan/github/Frontend Mentor/age-calc/node_modules/source-map-js/lib/source-node.js1680675728439570662 0
 89/home/milan/github/Frontend Mentor/age-calc/node_modules/@parcel/optimizer-terser/LICENSE1680674874059509643 0
-59/home/milan/github/Frontend Mentor/age-calc/dist/index.html1680675851985306937 0
+59/home/milan/github/Frontend Mentor/age-calc/dist/index.html1680684896149531610 0
 97/home/milan/github/Frontend Mentor/age-calc/node_modules/@swc/helpers/lib/_to_consumable_array.js1680674874459497081 0
 117/home/milan/github/Frontend Mentor/age-calc/node_modules/@parcel/core/test/fixtures/main-format-mismatch/package.json1680674874643491303 0
 94/home/milan/github/Frontend Mentor/age-calc/node_modules/@parcel/optimizer-terser/package.json1680674874143507006 0
