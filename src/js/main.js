@@ -3,6 +3,7 @@ const dayInput = document.getElementById("day");
 const monthInput = document.getElementById("month");
 const yearInput = document.getElementById("year");
 const today = new Date();
+const months = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 
 let dayOk = false;
 let monthOk = false;
@@ -23,7 +24,12 @@ const validateDay = function () {
 
 const validateMonth = function () {
   console.log(this.value);
-  if (isNaN(this.value) || this.value < 1 || this.value > 12) {
+  if (
+    isNaN(this.value) ||
+    this.value < 1 ||
+    this.value > 12 ||
+    months[this.value - 1] < dayInput.value
+  ) {
     document.getElementById("monthlHelp").innerHTML = "Must be a valid month";
     document.querySelector(".monthInputLabel").style.color = "red";
     document.getElementById("month").style.borderColor = "red";
@@ -55,38 +61,13 @@ monthInput.addEventListener("input", validateMonth);
 yearInput.addEventListener("input", validateYear);
 
 const calculateAge = function () {
-  let day1 = +document.getElementById("day").value;
-  let month1 = +document.getElementById("month").value;
-  let year1 = +document.getElementById("year").value;
-  let currentDate = new Date();
-  let day2 = currentDate.getDate();
-  let month2 = 1 + currentDate.getMonth();
-  let year2 = currentDate.getFullYear();
-  const months = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-
-  // const checkDay = function (day) {
-  //   if (isNaN(day) || day < 1 || day > 31) {
-  //     document.getElementById("dayHelp").innerHTML = "Must be a valid day";
-  //     document.querySelector(".dayInputLabel").style.color = "red";
-  //     document.getElementById("day").style.borderColor = "red";
-  //   } else {
-  //     dayOk = true;
-  //   }
-  // };
-  // const checkMonth = function (month) {};
-  // const checkYear = function (year) {
-  //   if (isNaN(year) || year > year2) {
-  //     document.getElementById("yearhHelp").innerHTML = "Must be a valid year";
-  //     document.querySelector(".yearInputLabel").style.color = "red";
-  //     document.getElementById("year").style.borderColor = "red";
-  //   } else {
-  //     yearOk = true;
-  //   }
-  // };
-
-  // checkDay(day1);
-  // checkMonth(month1);
-  // checkYear(year1);
+  let day1 = +dayInput.value;
+  let month1 = +monthInput.value;
+  let year1 = +yearInput.value;
+  // let currentDate = new Date();
+  let day2 = today.getDate();
+  let month2 = 1 + today.getMonth();
+  let year2 = today.getFullYear();
 
   console.log(dayOk, monthOk, yearOk);
 
