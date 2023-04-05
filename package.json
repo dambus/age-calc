@@ -1,0 +1,29 @@
+{
+  "name": "age-calc",
+  "version": "1.0.0",
+  "description": "Precise age calculator based on entered value",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dambus/age-calc.git"
+  },
+  "keywords": [
+    "age",
+    "calc",
+    "precise",
+    "javascript"
+  ],
+  "author": "Milan Djumic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dambus/age-calc/issues"
+  },
+  "homepage": "https://github.com/dambus/age-calc#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3"
+  }
+}
