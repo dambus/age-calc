@@ -31,27 +31,34 @@
           <div class="app--input">
             <form action="" class="input-form">
               <div class="mb-3 input-field">
-                <label for="day" class="form-label">day</label>
+                <label for="day" class="form-label dayInputLabel">day</label>
                 <input type="text" class="form-control" id="day" aria-describedby="" placeholder="DD">
-                <!-- <div id="daylHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                <div id="dayHelp" class="form-text"></div>
+                
               </div>
               <div class="mb-3 input-field">
-                <label for="month" class="form-label">month</label>
+                <label for="month" class="form-label monthInputLabel">month</label>
                 <input type="text" class="form-control" id="month" aria-describedby="" placeholder="MM">
-                <!-- <div id="daylHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                <div id="monthlHelp" class="form-text"></div>
+
               </div>
               <div class="mb-3">
-                <label for="year" class="form-label">year</label>
+                <label for="year" class="form-label yearInputLabel">year</label>
                 <input type="text" class="form-control" id="year" aria-describedby="" placeholder="YYYY">
-                <!-- <div id="daylHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                <div id="yearHelp" class="form-text"></div>
               </div>
             </form>
             <div class="button-placeholder">
-              <button type="submit"><img src="src/img/icon-arrow.svg" alt=""></button>
+              <button type="submit" class="subButton"><img src="src/img/icon-arrow.svg" alt=""></button>
             </div>
             
           </div>
-        </div>          
+          <div class="app--result-display">
+            <div class="app--result-display--years"><span>--</span> years</div>
+            <div class="app--result-display--months"><span>--</span> months</div>
+            <div class="app--result-display--days"><span>--</span> days</div>
+          </div>
+        </div> <!-- app end-->         
       </main>
     </div>
 

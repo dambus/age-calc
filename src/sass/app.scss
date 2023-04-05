@@ -58,4 +58,11 @@
   }
   &--result-display {
   }
+
+  #dayHelp,
+  #monthlHelp,
+  #yearHelp {
+    color: red;
+    font-size: 0.5rem;
+  }
 }
