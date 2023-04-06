@@ -1,9 +1,17 @@
+import { CountUp } from "countup.js";
+
 const submitButton = document.querySelector(".subButton");
 const dayInput = document.getElementById("day");
 const monthInput = document.getElementById("month");
 const yearInput = document.getElementById("year");
+const resultDays = document.querySelector(".app--result-display--days span");
+const resultMonths = document.querySelector(
+  ".app--result-display--months span"
+);
+const resultYears = document.querySelector(".app--result-display--years span");
 const today = new Date();
 const months = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+const messageBox = document.querySelector(".message-box");
 
 let dayOk = false;
 let monthOk = false;
@@ -23,7 +31,6 @@ const validateDay = function () {
 };
 
 const validateMonth = function () {
-  console.log(this.value);
   if (
     isNaN(this.value) ||
     this.value < 1 ||
@@ -42,8 +49,6 @@ const validateMonth = function () {
 };
 
 const validateYear = function () {
-  // let thisYear = new Date().getFullYear();
-  console.log(this.value);
   if (isNaN(this.value) || this.value > today.getFullYear()) {
     document.getElementById("yearHelp").innerHTML = "Must be a valid month";
     document.querySelector(".yearInputLabel").style.color = "red";
@@ -61,6 +66,13 @@ monthInput.addEventListener("input", validateMonth);
 yearInput.addEventListener("input", validateYear);
 
 const calculateAge = function () {
+  resultDays.innerHTML = "--";
+  resultMonths.innerHTML = "--";
+  resultYears.innerHTML = "--";
+  !messageBox.classList.contains("outside")
+    ? messageBox.classList.add("outside")
+    : messageBox.classList.contains("class");
+  messageBox.innerHTML = "";
   let day1 = +dayInput.value;
   let month1 = +monthInput.value;
   let year1 = +yearInput.value;
@@ -68,8 +80,6 @@ const calculateAge = function () {
   let day2 = today.getDate();
   let month2 = 1 + today.getMonth();
   let year2 = today.getFullYear();
-
-  console.log(dayOk, monthOk, yearOk);
 
   if (dayOk && monthOk && yearOk) {
     if (day1 > day2) {
@@ -83,14 +93,22 @@ const calculateAge = function () {
     const daysOld = day2 - day1;
     const monthsOld = month2 - month1;
     const yearsOld = year2 - year1;
+    dayOk = false;
+    monthOk = false;
+    yearOk = false;
 
-    document.querySelector(".app--result-display--years span").innerHTML =
-      yearsOld;
-    document.querySelector(".app--result-display--months span").innerHTML =
-      monthsOld;
-    document.querySelector(".app--result-display--days span").innerHTML =
-      daysOld;
+    let yearCountUp = new CountUp("myYear", yearsOld, 2000);
+    yearCountUp.start();
+    let monthCountUp = new CountUp("myMonth", monthsOld, 2000);
+    monthCountUp.start();
+    let dayCountUp = new CountUp("myDay", daysOld, 2000);
+    dayCountUp.start();
   } else {
+    messageBox.classList.remove("outside");
+    messageBox.innerHTML = "There was some invalid input, please try again.";
+    dayInput.value = "";
+    monthInput.value = "";
+    yearInput.value = "";
     return;
   }
 };
